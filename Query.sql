@@ -1,0 +1,14 @@
+CREATE DATABASE IF NOT EXISTS `uprak`;
+
+USE uprak;
+
+CREATE TABLE siswa (
+	id INT (11) NOT NULL AUTO_INCREMENT,
+	nama VARCHAR (255) NOT NULL,
+	jurusan VARCHAR (255) NOT NULL,
+	gender VARCHAR (255) NOT NULL,
+	ekstrakurikuler VARCHAR (255) NOT NULL,
+	alasan LONGTEXT NOT NULL,
+	PRIMARY KEY (id)
+);
+	
